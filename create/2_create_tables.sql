@@ -24,7 +24,7 @@ CREATE TABLE UserAddress (
   street_1 VARCHAR(50),
   street_2 VARCHAR(50),
   city VARCHAR(35),
-  state VARCHAR(2),
+  st VARCHAR(2),
   zip VARCHAR(10),
   country VARCHAR(30),
   created_date TIMESTAMP,
