@@ -1,0 +1,10 @@
+version: "3"
+
+services:
+  cs415-ubuntu:
+    build: ./ubuntu
+    image: image_cs415_ubuntu
+    container_name: container_cs415_ubuntu
+    restart: always
+    stdin_open: true
+    tty: true
